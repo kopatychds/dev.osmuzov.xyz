@@ -17,6 +17,7 @@ body {
 .wrench {
     display: block;
     margin: auto;
+    font-size: 160px;
     margin-top: 150px;
     height: auto;
 }
