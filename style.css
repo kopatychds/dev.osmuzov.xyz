@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    height: auto;
+    color: aliceblue;
+}
+
+.wrench {
+    display: block;
+    margin: auto;
+    margin-top: 150px;
+    height: auto;
+}
