@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(20, 20, 20);
+  background-color: #202020;
 }
 
 *,
@@ -9,27 +9,18 @@ body {
 }
 
 .osmuzov {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 800;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-top: 150px;
-  color: #11ce3a;
-  font-size: 15px;
-  text-align: center;
-  animation: textColor 5s infinite;
+  margin-bottom: -1px;
+  color: #dadada;
+  font-size: 10vw;
+  font-size: 10vh;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
 }
 
-@keyframes textColor {
-  0% {
-    color: #11ce3a;
-  }
-  50% {
-    color: #d81414;
-  }
-  100% {
-    color: #11ce3a;
-  }
-}
 
 .container {
   font-family: "Roboto", sans-serif;
@@ -42,6 +33,12 @@ body {
 .navigation_buttons {
   text-decoration: none;
   margin: 10px;
-  color: #11ce3a;
-  animation: 5s textColor infinite;
+  color: #676767;
+  font-size: 2vw;
+  font-size: 2vh;
+  transition: all 0.2s linear;
+}
+
+.navigation_buttons:hover {
+  color: #dadada;
 }
