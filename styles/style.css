@@ -16,7 +16,6 @@ body {
   justify-content: center;
   margin-bottom: -1px;
   font-size: 10vw;
-  font-size: 10vh;
   text-transform: uppercase;
 }
 
@@ -34,7 +33,6 @@ body {
   text-decoration: none;
   margin: 10px;
   font-size: 2vw;
-  font-size: 2vh;
   transition: all 0.2s linear;
 }
 
